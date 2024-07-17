@@ -1,0 +1,10 @@
+logo text: 
+abril fatface
+
+colors:
+#F1F8E8  - svetlo zelena
+#55AD9B  -  zelena
+#95D2B3 - temno zelena
+#D8EFD3 - bez
+
+#4A5D5E - header background
