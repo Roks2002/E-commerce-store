@@ -54,7 +54,7 @@ p {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 5px 80px;
+  padding: 0px 80px;
   background: #4a5d5e;
 }
 
@@ -67,6 +67,8 @@ p {
 #navbar li {
   list-style: none;
   padding: 0 20px;
+  font-weight: 500;
+  position: relative;
 }
 
 a:visited {
@@ -74,6 +76,40 @@ a:visited {
   color: white;
 }
 
-a:link {
+#navbar li a:link {
   text-decoration: none;
+}
+
+#navbar li a {
+  transition: 0.3s ease;
+}
+
+#navbar li a:hover {
+  color: #95d2b3;
+}
+
+#navbar li a:hover,
+#navbar li a.active {
+  color: #95d2b3;
+}
+
+#navbar li a.active::after {
+  content: "";
+  width: 30%;
+  height: 2px;
+  background: #95d2b3;
+  position: absolute;
+  bottom: -4px;
+  left: 20px;
+}
+
+#navbar a.active::after,
+#navbar li a:hover::after {
+  content: "";
+  width: 30%;
+  height: 2px;
+  background: #95d2b3;
+  position: absolute;
+  bottom: -4px;
+  left: 20px;
 }
