@@ -47,15 +47,18 @@ p {
 }
 
 .logo {
-  width: 20vh;
+  width: 15vh;
+  height: 4vh;
+  padding: 2px;
 }
 
 #header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0px 80px;
-  background: #4a5d5e;
+  padding: 10px 80px;
+  background: #ffffff;
+  border: rgb(216, 216, 216) 0.01px solid;
 }
 
 #navbar {
@@ -73,7 +76,7 @@ p {
 
 a:visited {
   text-decoration: none;
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 #navbar li a:link {
@@ -85,22 +88,22 @@ a:visited {
 }
 
 #navbar li a:hover {
-  color: #95d2b3;
+  color: #000000;
 }
 
 #navbar li a:hover,
 #navbar li a.active {
-  color: #95d2b3;
+  color: #000000;
 }
 
 #navbar li a.active::after {
   content: "";
   width: 30%;
   height: 2px;
-  background: #95d2b3;
+  background: #000000;
   position: absolute;
   bottom: -4px;
-  left: 20px;
+  left: 27px;
 }
 
 #navbar a.active::after,
@@ -108,8 +111,21 @@ a:visited {
   content: "";
   width: 30%;
   height: 2px;
-  background: #95d2b3;
+  background: #000000;
   position: absolute;
   bottom: -4px;
-  left: 20px;
+  left: 27px;
 }
+
+/* Home Page */
+#hero {
+  background-image: url("images/");
+}
+
+/* Shop.html */
+
+/* Single product */
+
+/* Blog Page */
+
+/* Home Page */
