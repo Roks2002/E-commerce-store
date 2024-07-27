@@ -17,7 +17,7 @@ window.addEventListener("scroll", handleScroll);
 document.getElementById("scroll-arrow").addEventListener("click", function () {
   const featureSection = document.getElementById("feat-prod");
   window.scrollTo({
-    top: featureSection.offsetTop + 100, // Adjust 100px for arrow height
+    top: featureSection.offsetTop + 0, // Adjust 100px for arrow height
     behavior: "smooth",
   });
 });
