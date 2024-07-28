@@ -232,6 +232,10 @@ a:visited {
   cursor: pointer;
 }
 
+#feat-prod {
+  width: 80%;
+}
+
 #feature .fe-box h6 {
   display: inline-block;
   padding: 9px 8px 6px 8px;
@@ -269,8 +273,43 @@ a:visited {
   width: 23%;
   min-width: 250;
   padding: 10px 12px;
-  border: 1px solid #cce7d0;
+  border: 1px solid rgb(197, 197, 197);
+  cursor: pointer;
+  box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+  transition: 0.2s ease;
 }
+
+#product1 .pro:hover {
+  box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
+}
+
+#product1 .pro img {
+  width: 100%;
+  border-radius: 0px;
+}
+
+#shopping-cart {
+  width: 20px !important;
+  border-radius: 0px !important;
+}
+
+#feat-prod {
+  width: 80%;
+  border: red 1px solid;
+  align-items: center;
+  margin: auto;
+}
+
+#product1 .pro .des {
+  text-align: start;
+  padding: 10px;
+}
+
+#product1 .pro .des span {
+  color: #353535;
+  font-size: 12px;
+}
+
 /* Shop.html */
 
 /* Single product */
