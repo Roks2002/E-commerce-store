@@ -384,7 +384,7 @@ button.normal {
   margin: auto;
   text-align: center;
   flex-flow: column;
-  background-color: rgb(222, 222, 222);
+  background-color: #e6e6e6;
 }
 #feat-brands h2 {
   padding-top: 40px;
@@ -463,7 +463,7 @@ button.normal {
 }
 
 .footer-links li a:hover {
-  color: #088178;
+  color: #818181;
 }
 
 .footer-center {
@@ -557,4 +557,153 @@ button.normal {
 
 .normal:hover {
   background-color: #c4c4c4;
+}
+
+#sm-banner {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.banner-box {
+  border-radius: 6px;
+}
+
+#sm-banner .banner-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: center;
+  background-color: orange;
+  min-width: 580px;
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 0px;
+  padding: 30px;
+}
+
+#sm-banner .banner-box2 {
+  background-color: grey;
+}
+
+#sm-banner h4 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+#sm-banner h2 {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 800;
+}
+
+#sm-banner span {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  padding-bottom: 15px;
+}
+
+.banner-box button {
+  font-size: 14px;
+  font-family: 600;
+  padding: 15px 30px;
+  color: #fafafa;
+  background-color: transparent;
+  border: white 1px solid;
+  border-radius: 4px;
+  cursor: pointer;
+  outline: none;
+  transition: 0.2s;
+  margin-top: 10px;
+}
+
+.banner-box button:hover {
+  font-size: 14px;
+  font-family: 600;
+  padding: 15px 30px;
+  color: #fafafa;
+  background-color: rgba(248, 248, 248, 0.336);
+  border: white 1px solid;
+  border-radius: 4px;
+  cursor: pointer;
+  outline: none;
+  transition: 0.2s;
+  margin-top: 10px;
+}
+
+@media (max-width: 799px) {
+  #navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    position: fixed;
+    right: 0px;
+    height: 100vh;
+    width: 300px;
+    background-color: #e3e6f3;
+    box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+    padding: 80px 0 0 10px;
+  }
+}
+
+/*shop page */
+#page-header {
+  background-image: url("images/banner/shop-banner.png");
+  width: 100%;
+  height: 40vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  padding-top: 4vh;
+}
+
+#page-header h2 {
+  color: rgb(248, 248, 248);
+}
+
+#page-header h1 {
+  color: rgb(255, 255, 255);
+}
+#page-header h3 {
+  color: rgb(160, 160, 160);
+}
+
+#pagination {
+  margin-top: 20px;
+  text-align: center;
+}
+
+#pagination a {
+  text-decoration: none;
+  background-color: #000000;
+  color: white;
+
+  padding: 15px 20px;
+  border-radius: 4px;
+  font-weight: 600;
+}
+
+#pagination a:hover {
+  text-decoration: none;
+  background-color: #575757;
+  color: white;
+
+  padding: 15px 20px;
+  border-radius: 4px;
+  font-weight: 600;
+}
+
+#pagination a i {
+  font-size: 16px;
+  font-weight: 600;
 }
