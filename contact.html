@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>Store</title>
+    <title>Kiwi</title>
   </head>
   <body>
     <section id="header">
@@ -26,10 +26,10 @@
             <a href="about.html">About</a>
           </li>
           <li>
-            <a href="contact.html" class="active">Contact</a>
+            <a class="active" href="contact.html">Contact</a>
           </li>
           <li>
-            <a>
+            <a class="active">
               <img
                 id="shopping-cart"
                 src="images/cart-shopping-solid.png"
@@ -43,22 +43,41 @@
       </div>
     </section>
 
-    <section id="test2">
-      <h1>Contact</h1>
-      <p>
-        Mauris ligula diam, feugiat molestie placerat eget, feugiat vitae massa.
-        Cras enim velit, tincidunt vel consectetur in, bibendum a nulla. Sed in
-        turpis maximus, pellentesque nisl vitae, mollis diam. Quisque bibendum,
-        massa et aliquet feugiat, ipsum diam laoreet metus, sed dignissim sapien
-        odio id diam. Quisque euismod nunc quis velit sagittis aliquam. Duis in
-        dapibus ex. Donec laoreet nibh quis viverra sodales. Ut ac eleifend
-        magna, ac ultrices enim. Phasellus lacus nisi, tincidunt ut tellus non,
-        placerat rhoncus purus.
-      </p>
+    <section id="page-header" class="about-header">
+      <h2>Contact Us</h2>
     </section>
-    <div id="footer-container"></div>
 
+    <section id="contact-details" class="section-p1">
+      <div class="details">
+        <span> GET IN TOUCH </span>
+        <h2>Visit one of our ageny locations or contact us today</h2>
+        <h3>Head Office</h3>
+        <div>
+          <li>
+            <p>Ulica 123, 1000 Ljubljana</p>
+          </li>
+
+          <li><p>Fax: +1 234 567 891</p></li>
+          <li><p>test@test.com</p></li>
+        </div>
+      </div>
+      <div class="map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2768.4276652971635!2d14.538811276749064!3d46.062513093319254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47653219d7192081%3A0x67d1805d4ec513e2!2sIzdelava%20spletnih%20strani%20-%20Spletna%20postaja%20d.o.o.!5e0!3m2!1ssl!2ssi!4v1722600544453!5m2!1ssl!2ssi"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </section>
+
+    <div id="footer-container"></div>
+    <script src="feat-prod.js"></script>
     <script src="footer.js"></script>
     <script src="header.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>

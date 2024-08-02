@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>Store</title>
+    <title>Kiwi</title>
   </head>
   <body>
     <section id="header">
@@ -20,7 +20,7 @@
             <a href="shop.html">Shop</a>
           </li>
           <li>
-            <a href="blog.html" class="active">Blog</a>
+            <a class="active" href="blog.html">Blog</a>
           </li>
           <li>
             <a href="about.html">About</a>
@@ -29,7 +29,7 @@
             <a href="contact.html">Contact</a>
           </li>
           <li>
-            <a>
+            <a class="active">
               <img
                 id="shopping-cart"
                 src="images/cart-shopping-solid.png"
@@ -42,24 +42,72 @@
         <i id="bar"></i>
       </div>
     </section>
-    <h1>BLOG</h1>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget
-      iaculis enim. Maecenas maximus nisi a nulla posuere, ac ultricies purus
-      mattis. Sed diam est, sagittis non semper et, convallis ut arcu. Morbi in
-      diam vitae velit dignissim bibendum porttitor vel nunc. Praesent dolor
-      ligula, rhoncus nec tellus ac, vehicula tempus sem. Nam congue non justo
-      nec dignissim. Curabitur dui turpis, elementum at ante nec, commodo
-      fermentum risus. Nunc ac mi vel velit auctor mollis. Nullam lacinia
-      placerat mi, nec posuere ex rhoncus non. Aliquam erat volutpat. Vivamus
-      commodo eleifend scelerisque. Cras egestas augue id lacinia mollis. Morbi
-      volutpat mauris ac tempor ornare. Ut hendrerit dapibus maximus. Aenean
-      placerat lacus ut dictum gravida.
-    </p>
-    <div id="footer-container"></div>
 
+    <section id="page-header" class="blog-header">
+      <h2>Blog</h2>
+
+      <a href="shop.html"> </a>
+    </section>
+
+    <section id="blog">
+      <div class="blog-box">
+        <div class="blog-img">
+          <img src="images/blog/picking-flowers.jpg" />
+        </div>
+        <div class="blog-details">
+          <h4>Fashion as a Form of Self-Care</h4>
+          <p>
+            Sometimes, taking a little time for yourself to play with fashion
+            can be a form of self-care. Treating yourself to a new outfit,
+            organizing your closet, or even just trying on different
+            combinations can be a fun and rewarding way to boost your mood.
+          </p>
+          <a href="#">CONTINUE READING</a>
+        </div>
+        <h1>2/8/24</h1>
+      </div>
+
+      <div class="blog-box">
+        <div class="blog-img">
+          <img src="images/blog/couple.jpg" />
+        </div>
+        <div class="blog-details">
+          <h4>Style in Sync: The Joy of Fashion for Couples</h4>
+          <p>
+            Fashion isn’t just a solo pursuit; it can be a delightful journey
+            for couples too. Whether you’re hitting the town for a date night,
+            strolling through a weekend market, or just lounging at home,
+            coordinating your styles can add a fun and cohesive element to your
+            relationship.
+          </p>
+          <a href="#">CONTINUE READING</a>
+        </div>
+        <h1>30/7/24</h1>
+      </div>
+
+      <div class="blog-box">
+        <div class="blog-img">
+          <img src="images/blog/traveler.jpg" />
+        </div>
+        <div class="blog-details">
+          <h4>Travel in Style: Merging Fashion with Your Adventures</h4>
+          <p>
+            Traveling opens up a world of experiences, but it also presents a
+            unique opportunity to showcase your personal style in diverse
+            settings. From exploring bustling city streets to relaxing on
+            sun-kissed beaches, the way you dress while traveling can enhance
+            your experiences and help you make lasting memories.
+          </p>
+          <a href="#">CONTINUE READING</a>
+        </div>
+        <h1>25/7/24</h1>
+      </div>
+    </section>
+
+    <div id="footer-container"></div>
+    <script src="feat-prod.js"></script>
     <script src="footer.js"></script>
-    <script src="script.js"></script>
     <script src="header.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>

@@ -63,6 +63,11 @@ p {
   width: 100%;
 }
 
+.section-k1 {
+  width: 100%;
+  margin: auto;
+}
+
 .sproduct-section {
   margin-top: 2vh;
 }
@@ -800,4 +805,138 @@ p {
 
 #prodetails .single-pro-details h4 {
   line-height: 1px;
+}
+
+#page-header.blog-header {
+  background-image: url("images/banner/blog-banner.png");
+}
+
+#blog {
+  padding: 150px 150px 0 150px;
+}
+
+#blog .blog-box {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  position: relative;
+  padding-bottom: 90px;
+}
+
+#blog .blog-img {
+  width: 50%;
+  margin-right: 40px;
+}
+
+#blog img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+#blog .blog-details {
+  width: 50%;
+}
+
+#blog .blog-details a {
+  text-decoration: none;
+  font-size: 11px;
+  color: #000000;
+  font-weight: 700;
+  position: relative;
+  transition: 0.3s;
+}
+
+#blog .blog-details a:after {
+  content: "";
+  width: 50px;
+  height: 1px;
+  background-color: #000000;
+  position: absolute;
+  top: 4px;
+  right: -60px;
+}
+
+#blog .blog-details a:hover {
+  color: black;
+}
+
+#blog .blog-details a:hover::after {
+  background-color: #000000;
+}
+#blog .blog-box h1 {
+  position: absolute;
+  top: -45px;
+  left: 0;
+  font-size: 70px;
+  font-weight: 700;
+  color: grey;
+  z-index: 0;
+}
+
+#about-head {
+  display: flex;
+  align-items: center;
+}
+
+#about-head img {
+  width: 50%;
+  height: auto;
+}
+
+#about-head div {
+  padding-left: 40px;
+}
+
+#contact-details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 50px;
+}
+
+#contact-details .details {
+  width: 40%;
+  margin: 40px 0px 40px 40px;
+}
+
+#contact-details .details span {
+  font-size: 12px;
+}
+
+#contact-details .details h2 {
+  font-size: 26px;
+  line-height: 35px;
+  padding: 20px 0;
+}
+
+#contact-details .details h3 {
+  font-size: 26px;
+  line-height: 15px;
+}
+
+#contact-details .details li {
+  list-style-type: none;
+  display: flex;
+  padding: 10px;
+}
+
+#contact-details .details li i {
+  font-size: 14px;
+  padding-right: 22px;
+}
+
+#contact-details .details li p {
+  font-size: 14px;
+  margin-top: 0px;
+}
+
+#contact-details .map {
+  width: 55%;
+  height: 400px;
+}
+
+#contact-details .map iframe {
+  width: 100%;
+  height: 100%;
 }
