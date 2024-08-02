@@ -63,6 +63,10 @@ p {
   width: 100%;
 }
 
+.sproduct-section {
+  margin-top: 2vh;
+}
+
 .logo {
   width: 15vh;
   height: 4vh;
@@ -119,19 +123,19 @@ a:visited {
 }
 
 #navbar li a:hover {
-  color: #d43030;
+  color: #000000;
 }
 
 #navbar li a:hover,
 #navbar li a.active {
-  color: #40038b;
+  color: #424242;
 }
 
 #navbar li a.active::after {
   content: "";
   width: 30%;
   height: 2px;
-  background: #cd0404;
+  background: #000000;
   position: absolute;
   bottom: -4px;
   left: 27px;
@@ -142,7 +146,7 @@ a:visited {
   content: "";
   width: 30%;
   height: 2px;
-  background: #ac0505;
+  background: #050505;
   position: absolute;
   bottom: -4px;
   left: 27px;
@@ -723,8 +727,9 @@ button.normal {
 /*single product*/
 
 #prodetails .single-pro-image {
-  width: 30%;
-  margin-right: 50px;
+  width: 50%;
+
+  margin-right: 45px;
 }
 
 .small-img-group {
@@ -738,7 +743,7 @@ button.normal {
 
 #prodetails {
   display: flex;
-  margin-top: 20px;
+  margin-top: 100px !important;
   width: 50%;
   margin: auto;
   height: auto;
@@ -791,4 +796,8 @@ p {
 
 #prodetails .single-pro-details span {
   line-height: 25px;
+}
+
+#prodetails .single-pro-details h4 {
+  line-height: 1px;
 }

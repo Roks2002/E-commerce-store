@@ -7,9 +7,30 @@
     <title>Kiwi</title>
   </head>
   <body>
-    <div id="header-container"></div>
+    <section id="header">
+      <a href="index.html">
+        <img src="images/kiwi-new-logo.png" class="logo" alt="Kiwi Logo" />
+      </a>
+      <div>
+        <ul id="navbar">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li>
+            <a href="cart.html"
+              ><img
+                id="shopping-cart"
+                src="images/cart-shopping-solid.png"
+                alt="Cart"
+            /></a>
+          </li>
+        </ul>
+      </div>
+    </section>
 
-    <section id="prodetails" class="section-p1">
+    <section id="prodetails" class="sproduct-section">
       <div class="single-pro-image">
         <img
           src="images/items/item1/item1.1.png"
@@ -17,11 +38,10 @@
           id="MainImg"
           alt="Main product image"
         />
-
         <div class="small-img-group">
           <div class="small-img-col">
             <img
-              src="images/items/item1/item1.2.png"
+              src="images/items/item1/item1.1.png"
               width="100%"
               class="small-img"
               alt="Small product image 1"
@@ -35,11 +55,27 @@
               alt="Small product image 2"
             />
           </div>
+          <div class="small-img-col">
+            <img
+              src="images/items/item1/item1.2.png"
+              width="100%"
+              class="small-img"
+              alt="Small product image 2"
+            />
+          </div>
+          <div class="small-img-col">
+            <img
+              src="images/items/item1/item1.2.png"
+              width="100%"
+              class="small-img"
+              alt="Small product image 3"
+            />
+          </div>
         </div>
       </div>
       <div class="single-pro-details">
         <h6>Home / Tshirt</h6>
-        <h4>Men's Fashion T shirt</h4>
+        <h3>Men's Fashion T-shirt</h3>
         <h2>44.90 €</h2>
         <select>
           <option>Select size</option>
@@ -48,35 +84,60 @@
           <option>Small</option>
           <option>Large</option>
         </select>
-
         <input type="number" value="1" />
         <button class="normal">Add To Cart</button>
-        <h4>Dizajn & Dodatki</h4>
+        <h4>Design & Details</h4>
         <ul>
-          <li>Črtast Bombaž</li>
-          <li>Ovratnik srajce</li>
-          <li>Prešit obod/rob</li>
-          <li>Zavihan ovratnik</li>
-          <li>All-Over-Muster</li>
-          <li>Fin tekstil</li>
-          <li>Zapenjanje na gumbe</li>
+          <li>Striped Cotton</li>
+          <li>Shirt Collar</li>
+          <li>Quilted Hem</li>
+          <li>Folded Collar</li>
+          <li>All-Over Pattern</li>
+          <li>Fine Fabric</li>
+          <li>Button Closure</li>
         </ul>
-        <br />
-        <h4>Materal in nega</h4>
-        <p>Material: 100% Bombaž</p>
+        <div class="material-care">
+          <h4>Material and Care</h4>
+          <p>Material: 100% Cotton</p>
+        </div>
       </div>
     </section>
 
     <div id="feat-prod-container"></div>
 
     <section id="banner" class="section-m1 banner">
-      <h4>New collection</h4>
+      <h4>New Collection</h4>
       <h2>Introducing the Newest Collection of Shoes</h2>
       <button class="normal">Explore more</button>
     </section>
 
     <div id="footer-container"></div>
 
+    <script>
+      var MainImg = document.getElementById("MainImg");
+      var smallimg = document.getElementsByClassName("small-img");
+
+      document.addEventListener("DOMContentLoaded", function () {
+        var MainImg = document.getElementById("MainImg");
+        var smallimg = document.getElementsByClassName("small-img");
+
+        smallimg[0].onclick = function () {
+          MainImg.src = smallimg[0].src;
+        };
+
+        smallimg[1].onclick = function () {
+          MainImg.src = smallimg[1].src;
+        };
+
+        smallimg[2].onclick = function () {
+          MainImg.src = smallimg[2].src;
+        };
+
+        smallimg[3].onclick = function () {
+          MainImg.src = smallimg[3].src;
+        };
+      });
+    </script>
     <script src="feat-prod.js"></script>
     <script src="footer.js"></script>
     <script src="header.js"></script>
