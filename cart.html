@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+      integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+      crossorigin="anonymous"
+    />
+
+    <title>Kiwi</title>
+  </head>
+  <body>
+    <section id="header">
+      <a href="index.html">
+        <img src="images/kiwi-new-logo.png" class="logo" />
+      </a>
+      <div>
+        <ul id="navbar">
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="shop.html">Shop</a>
+          </li>
+          <li>
+            <a href="blog.html">Blog</a>
+          </li>
+          <li>
+            <a href="about.html">About</a>
+          </li>
+          <li>
+            <a href="contact.html">Contact</a>
+          </li>
+          <li>
+            <a class="active">
+              <img
+                id="shopping-cart"
+                src="images/cart-shopping-solid.png"
+                alt=""
+              />
+            </a>
+          </li>
+        </ul>
+        <a href="cart.html"></a>
+        <i id="bar"></i>
+      </div>
+    </section>
+
+    <section id="page-header" class="about-header">
+      <h2>Contact Us</h2>
+    </section>
+
+    <section id="cart" class="section-p1">
+      <table width="100%">
+        <thead>
+          <tr>
+            <td>Remove</td>
+            <td>Image</td>
+            <td>Product</td>
+            <td>Price</td>
+            <td>Quantity</td>
+            <td>Subtotal</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <a href="#"><i class="far fa-times-circle"></i></a>
+            </td>
+            <td><img src="images/items/item1/item1.1.png" /></td>
+            <td>Regular fit Shirt 'JJLuke' in Dark Gray</td>
+            <td>44.90€</td>
+            <td><input type="number" value="1" />44.90€</td>
+          </tr>
+          <tr>
+            <td>
+              <a href="#"><i class="far fa-times-circle"></i></a>
+            </td>
+            <td><img src="images/items/item1/item1.1.png" /></td>
+            <td>Regular fit Shirt 'JJLuke' in Dark Gray</td>
+            <td>44.90€</td>
+            <td><input type="number" value="1" />44.90€</td>
+          </tr>
+          <tr>
+            <td>
+              <a href="#"><i class="far fa-times-circle"></i></a>
+            </td>
+            <td><img src="images/items/item1/item1.1.png" /></td>
+            <td>Regular fit Shirt 'JJLuke' in Dark Gray</td>
+            <td>44.90€</td>
+            <td><input type="number" value="1" />44.90€</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="cart-add" class="section-p1">
+      <div id="cupon">
+        <h3>Apply cupon</h3>
+        <div>
+          <input type="text" placeholder="Enter your cupon" />
+          <button class="normal">Apply</button>
+        </div>
+      </div>
+
+      <div id="subtotal">
+        <h3>Cart Totals</h3>
+        <table>
+          <tr>
+            <td>Cart Subtotal</td>
+            <td>44.90€</td>
+          </tr>
+          <tr>
+            <td>Shipping</td>
+            <td>Free</td>
+          </tr>
+          <tr>
+            <td><trong>Total</trong></td>
+            <td><strong>308.8€</strong>></td>
+          </tr>
+        </table>
+        <button class="normal">Proceed to checkout</button>
+      </div>
+    </section>
+    <div id="footer-container"></div>
+    <script src="feat-prod.js"></script>
+    <script src="footer.js"></script>
+    <script src="header.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
