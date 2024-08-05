@@ -1046,12 +1046,15 @@ p {
 
 #cart-add #cupon {
   width: 50%;
-  margin-bottom: 30%;
+  margin-bottom: 10%;
 }
 
 #cupon h3,
 #subtotal {
   padding-bottom: 15px;
+}
+
+#cupon {
 }
 
 #cupon input {
