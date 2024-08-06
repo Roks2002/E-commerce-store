@@ -665,9 +665,11 @@ button.normal {
     box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
     padding: 80px 0 0 10px;
   }
+
   #prodetails {
     display: flex;
     flex-direction: column;
+    padding-top: 100px !important;
   }
   #prodetails .single-pro-image {
     width: 100%;
@@ -677,6 +679,11 @@ button.normal {
     width: 50%;
     padding-top: 30px;
   }
+}
+
+#prodetails.sproduct-section .single-pro-image,
+#prodetails.sproduct-section .single-pro-details {
+  margin-top: 100px;
 }
 
 /*shop page */
@@ -1054,9 +1061,6 @@ p {
   padding-bottom: 15px;
 }
 
-#cupon {
-}
-
 #cupon input {
   padding: 10px 20px;
   outline: none;
@@ -1090,4 +1094,29 @@ p {
   border: 1px solid #e2e9e1;
   padding: 10px;
   font-size: 13px;
+}
+
+.sort-container {
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+}
+
+.sort-container label {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.sort-select {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  font-size: 16px;
+}
+
+.sort-select:focus {
+  outline: none;
+  border-color: #020303;
+  box-shadow: 0 0 5px rgba(16, 18, 20, 0.5);
 }
